@@ -1,0 +1,23 @@
+{
+  "name": "livemathjaxeditor",
+  "version": "1.0.0",
+  "description": "This is Live Mathjax Editor , in which you can write Maths Equation Syntaxes and ,see results live ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "live",
+    "live",
+    "mathjax",
+    "editor",
+    "math",
+    "editor",
+    "math",
+    "writer",
+    "mathematics",
+    "writer"
+  ],
+  "author": "Sanheen Sethi",
+  "license": "MIT"
+}

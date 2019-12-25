@@ -1,0 +1,91 @@
+<!--
+	Live HTML Editor
+	
+	This content is released under the MIT License (MIT)
+	
+	Copyright (c) 2019 , Sanheen Sethi
+	
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:
+	
+	The above copyright notice and this permission notice shall be included in
+	all copies or substantial portions of the Software.
+	
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+	THE SOFTWARE.
+	
+	* @package Live MathJax Editor
+	* @author	Sanheen Sethi
+	* @copyright	Copyright (c) 2018, Sanheen Sethi
+	* @license	http://opensource.org/licenses/MIT	MIT License
+	* @link	https://github.com/sanheensethi
+	* @since	version 1.0.0
+	* @version	version 1.0.0
+	* @filesource
+	* @Date : 25-12-2019
+	* @Time : 11:30 AM
+-->
+
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>MathJax Simple Live Editor</title>
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="css/style.css">
+ </head>
+ <body>
+ <body style="background-color:#f8f8f8">
+ <div class="row">
+ <div class="col-md-12 jumbotron bg-danger" >
+ <h1 class="text-center" style="color:#fff"><i class="fa fa-code"></i> LIVE MathJax EDITOR <i class="fa fa-code"></i></h1>
+ <h3 class="text-center" style="color:#fff;"><i class="fa fa-user"></i> Sanheen Sethi.</h3>
+ </div>
+ </div><br>
+ <div class="container-fluid">
+ <div class="row">
+ <div class="col-md-12">
+ <div class="form-group">
+ <h1 class="text-danger">Result</h1>
+ <iframe src="data/show.html" height="200" width="300"></iframe>
+ </div>
+ </div>
+ </div>
+ 
+ <div class="row">
+ <div class="col-md-12">
+ <input type="submit" name="copy" value="Copy" style="height:50px;" class="pull-right btn btn-success" onclick="htmlcopy()">
+ <input type="submit" name="clear" value="Clear" style="height:50px;" class="pull-right btn btn-danger" onclick="htmlclear()">
+ <div class="form-group">
+ <span class="input-group-addon bg-primary" style="color:#fff;font-weight:bold;font-size:25px;">MathJax Syntaxes</span>
+ <textarea id="math" rows="10" cols="40" class="form-control f" name="code" placeholder="Type Here ... "></textarea>
+ </div>
+ </div>
+ 
+ </div><br><br>
+ <div class="col-md-12">
+ <p class="text-center text-danger"><a href="https://github.com/sanheensethi/Live-Mathjax-Editor">Code - Click Here</a></p>
+ <p class="text-center text-danger">&copy; Copyright (2019) Sanheen Sethi <br>
+ Links : <a href="https://www.github.com/sanheensethi"><i class="fa fa-github"></i></a>&nbsp;
+ <a href="https://www.facebook.com/sanheen.sethi376"><i class="fa fa-facebook"></i></a>&nbsp;
+ <a href="https://www.linkedin.com/in/sanheen-sethi-1114a7157"><i class="fa fa-linkedin"></i></a>
+ 
+ 
+ </p>
+ </div>
+ </div>	
+ </div>
+ <script type="text/javascript" src="js/jquery/jquery.min.js"></script>
+ <script type="text/javascript" src="js/tether/tether.js"></script>
+ <script type="text/javascript" src="js/index.js"></script>
+ </body>
+</html>
