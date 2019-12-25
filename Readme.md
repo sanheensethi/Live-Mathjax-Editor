@@ -10,17 +10,17 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-● @package Live MathJax Editor
-● @author	Sanheen Sethi
-● @copyright	Copyright (c) 2019, Sanheen Sethi
-● @license http://opensource.org/licenses/MIT	MIT License
-● @link https://github.com/sanheensethi
-● @since	version 1.0.0
-● @version	version 1.0.0
-● @filesource
-● @Date : 25-12-2019
-● @Time : 11:30 PM
-● Description :
+>  @package Live MathJax Editor
+>  @author	Sanheen Sethi
+>  @copyright	Copyright (c) 2019, Sanheen Sethi
+>  @license http://opensource.org/licenses/MIT	MIT License
+>  @link https://github.com/sanheensethi
+>  @since	version 1.0.0
+>  @version	version 1.0.0
+>  @filesource
+>  @Date : 25-12-2019
+>  @Time : 11:30 PM
+>  Description :
 
     > A Very Simple MathJax Live Editor.
 	> To use the MathJax Editor , You need PHP Server in your System.
