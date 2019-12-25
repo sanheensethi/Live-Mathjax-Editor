@@ -22,7 +22,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 >  @Time : 11:30 PM
 >  Description :
 
-	> [Live Demo] # http://sethi.host22.com/?u=lme
+[Live Demo] # http://sethi.host22.com/?u=lme
+
     > A Very Simple MathJax Live Editor.
 	> To use the MathJax Editor , You need PHP Server in your System.
 	> Initialize The MathJax Script URL in "ini.php".
